@@ -28,7 +28,8 @@ img {
   object-fit: contain;
 }
 
-p {
+p,
+.oldPrice {
   font-family: Montserrat;
   font-weight: 500;
   font-size: 14px;
@@ -51,4 +52,12 @@ h1 {
 
 button {
   display: block;
+}
+
+.currPrice {
+  color: hsl(158, 36%, 37%);
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 33px;
+  margin-right: 6%;
 }
