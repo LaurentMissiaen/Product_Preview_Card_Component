@@ -18,8 +18,30 @@ body {
   overflow: hidden;
 }
 
+.content {
+  padding: 4% 8%;
+}
+
 img {
   max-inline-size: 100%;
   block-size: auto;
   object-fit: contain;
+}
+
+p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.8;
+}
+
+h1 {
+  font-family: Fraunces;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+}
+
+button {
+  display: block;
 }
