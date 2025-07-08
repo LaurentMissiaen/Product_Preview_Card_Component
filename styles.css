@@ -26,7 +26,7 @@ body {
 
 img {
   max-inline-size: 100%;
-  block-size: auto;
+  block-size: 100%;
   object-fit: contain;
 }
 
@@ -88,5 +88,15 @@ s {
     flex-direction: row;
     flex-wrap: nowrap;
     max-width: 80%;
+  }
+  .pic {
+    display: flex;
+  }
+  .content {
+    flex-direction: column;
+    display: flex;
+  }
+  .currPrice {
+    display: inline;
   }
 }
