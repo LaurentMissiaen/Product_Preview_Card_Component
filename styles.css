@@ -90,11 +90,12 @@ s {
     max-width: 80%;
   }
   .pic {
-    display: flex;
+    min-width: 50%;
   }
   .content {
     flex-direction: column;
     display: flex;
+    justify-content: center;
   }
   .currPrice {
     display: inline;
