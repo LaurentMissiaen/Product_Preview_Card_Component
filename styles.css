@@ -13,7 +13,7 @@ body {
 .card {
   background-color: hsl(0, 0%, 100%);
   max-width: 98%;
-  max-height: 90%;
+  max-height: 80%;
   border-radius: 12px;
   overflow: hidden;
   display: flex;
@@ -99,5 +99,8 @@ s {
   }
   .currPrice {
     display: inline;
+  }
+  img {
+    object-fit: cover;
   }
 }
