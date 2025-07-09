@@ -8,12 +8,13 @@ body {
   align-items: center;
   justify-content: center;
   height: 100%;
+  width: 100%;
 }
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  max-width: 98%;
-  max-height: 80%;
+  max-width: 22em;
+  max-height: 40em;
   border-radius: 12px;
   overflow: hidden;
   display: flex;
@@ -52,9 +53,12 @@ h1 {
   margin: 0;
 }
 
+.pricing {
+  margin-bottom: 1em;
+}
+
 button {
   display: block;
-  margin: 8% auto;
   padding-top: 5%;
   padding-bottom: 5%;
   width: 100%;
@@ -87,20 +91,24 @@ s {
   .card {
     flex-direction: row;
     flex-wrap: nowrap;
-    max-width: 80%;
+    max-height: 30em;
+    max-width: 35em;
+  }
+  #chanel {
+    min-width: 100%;
+    object-fit: cover;
   }
   .pic {
     min-width: 50%;
   }
+
   .content {
     flex-direction: column;
     display: flex;
     justify-content: center;
+    padding: 2em;
   }
   .currPrice {
     display: inline;
-  }
-  img {
-    object-fit: cover;
   }
 }
