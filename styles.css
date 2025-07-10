@@ -9,6 +9,7 @@ body {
   justify-content: center;
   height: 100%;
   width: 100%;
+  margin: auto;
 }
 
 .card {
@@ -70,11 +71,6 @@ button {
   font-weight: 700;
 }
 
-img:last-of-type {
-  padding-right: 2%;
-  vertical-align: -20%;
-}
-
 .currPrice {
   color: hsl(158, 36%, 37%);
   font-family: Fraunces;
@@ -87,28 +83,36 @@ s {
   vertical-align: 25%;
 }
 
-@media (min-width: 600px) {
+img:last-of-type {
+  padding-right: 2%;
+  vertical-align: -20%;
+}
+
+@media (min-width: 40em) {
   .card {
     flex-direction: row;
     flex-wrap: nowrap;
     max-height: 30em;
-    max-width: 35em;
+    max-width: 40em;
   }
+
+  .pic {
+    min-width: 50%;
+  }
+
   #chanel {
     min-width: 100%;
     object-fit: cover;
-  }
-  .pic {
-    min-width: 50%;
   }
 
   .content {
     flex-direction: column;
     display: flex;
     justify-content: center;
-    padding: 2em;
+    padding: 1em 3em;
   }
-  .currPrice {
-    display: inline;
+
+  p:first-of-type {
+    padding-bottom: 1em;
   }
 }
