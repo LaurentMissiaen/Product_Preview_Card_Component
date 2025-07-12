@@ -42,10 +42,17 @@ s {
   line-height: 1.8;
 }
 
-p:first-of-type {
+.sublabel {
   margin: 0;
   font-size: 12px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 40em) {
+  .sublabel {
+    padding-bottom: 1em;
+  }
 }
 
 h1 {
